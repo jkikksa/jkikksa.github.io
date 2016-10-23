@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>gllace feedback</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: #849d8f">
+  <header class="main-header">
+    <div class="main-header__inner">
+      <nav class="main-menu">
+        <a class="main-menu__logo" href="index.html">
+          <img src="img/icon_main-menu__logo.svg" alt="Logo" width="154" height="64" title="Gllacy Shop">
+        </a>
+      </nav>
+    </div>
+  </header>
+  <div class="feedback" id="feedback" style="display: block">
+    <form class="feedback__form" action="http://echo.htmlacademy.ru" method="get">
+      <p class="feedback__title">Мы обязательно вам ответим!</p>
+      <div class="field-wrapper">
+        <input id="username" type="text" name="username" placeholder="Как вас зовут?" required>
+        <label class="field-wrapper__label" for="username">Как вас зовут?</label>
+      </div>
+      <div class="field-wrapper">
+        <input id="feedback-email" type="text" name="feedback-email" placeholder="Ваша почта для ответа?" required>
+        <label class="field-wrapper__label" for="feedback-email">Ваша почта для ответа?</label>
+      </div>
+      <div class="field-wrapper">
+        <textarea id="feedback-text" name="feedback-text" cols="40" rows="10" placeholder="Напишите что-нибудь..." required></textarea>
+        <label class="field-wrapper__label" for="feedback-text">Напишите что-нибудь...</label>
+      </div>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+</body>
+</html>
